@@ -105,7 +105,7 @@ npm install @warren-bank/libre-language-translator
 * implicit optimization of duplicate input strings
 
 ```javascript
-const translate = require('@warren-bank/libre-language-translator')
+const {translate} = require('@warren-bank/libre-language-translator')
 
 {
   const api_key              = null
@@ -125,7 +125,7 @@ const translate = require('@warren-bank/libre-language-translator')
 * explicit optimization of duplicate input strings
 
 ```javascript
-const translate         = require('@warren-bank/libre-language-translator')
+const {translate}       = require('@warren-bank/libre-language-translator')
 const {DuplicatesStore} = require('@warren-bank/libre-language-translator/lib/optimize-duplicates')
 
 {

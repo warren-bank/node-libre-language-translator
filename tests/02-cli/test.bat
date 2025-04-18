@@ -20,3 +20,7 @@ if exist %log_file% del %log_file%
 
 call :libre-translate -i "en" -o "de" -s "Hello world"            >>%log_file% 2>&1
 call :libre-translate -i "en" -o "de" -s "Welcome to the jungle"  >>%log_file% 2>&1
+
+rem :: test invalid input
+call :libre-translate -i "xx" -o "de" -s "Hello" >>%log_file% 2>&1
+call :libre-translate -i "en" -o "yy" -s "Hello" >>%log_file% 2>&1

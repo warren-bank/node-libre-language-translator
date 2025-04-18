@@ -8,113 +8,23 @@
   "--api-url": "https://libretranslate.com"
 }
 
-ERROR: Option "-i" requires a value restricted to the following options:
-[
-  "en",
-  "sq",
-  "ar",
-  "az",
-  "eu",
-  "bn",
-  "bg",
-  "ca",
-  "zh-Hans",
-  "zh-Hant",
-  "cs",
-  "da",
-  "nl",
-  "eo",
-  "et",
-  "fi",
-  "fr",
-  "gl",
-  "de",
-  "el",
-  "he",
-  "hi",
-  "hu",
-  "id",
-  "ga",
-  "it",
-  "ja",
-  "ko",
-  "lv",
-  "lt",
-  "ms",
-  "nb",
-  "fa",
-  "pl",
-  "pt",
-  "pt-BR",
-  "ro",
-  "ru",
-  "sr",
-  "sk",
-  "sl",
-  "es",
-  "sv",
-  "tl",
-  "th",
-  "tr",
-  "uk",
-  "ur",
-  "vi"
-]
-You entered: "xx"
-Process terminated with exit code: 1
+-i xx -o de -s Hello
+--------------------
+{
+  "--input-language": "xx",
+  "--output-language": "de",
+  "--input-string": "Hello",
+  "--api-key": null,
+  "--api-url": "https://libretranslate.com"
+}
 
-ERROR: Output language is not a valid target for the specified input language ("en")
-You entered: "yy"
-Valid targets are: [
-  "ar",
-  "az",
-  "bg",
-  "bn",
-  "ca",
-  "cs",
-  "da",
-  "de",
-  "el",
-  "en",
-  "eo",
-  "es",
-  "et",
-  "eu",
-  "fa",
-  "fi",
-  "fr",
-  "ga",
-  "gl",
-  "he",
-  "hi",
-  "hu",
-  "id",
-  "it",
-  "ja",
-  "ko",
-  "lt",
-  "lv",
-  "ms",
-  "nb",
-  "nl",
-  "pt-BR",
-  "pl",
-  "pt",
-  "ro",
-  "ru",
-  "sk",
-  "sl",
-  "sq",
-  "sr",
-  "sv",
-  "th",
-  "tl",
-  "tr",
-  "uk",
-  "ur",
-  "vi",
-  "zh-Hans",
-  "zh-Hant"
-]
-Process terminated with exit code: 1
+-i en -o yy -s Hello
+--------------------
+{
+  "--input-language": "en",
+  "--output-language": "yy",
+  "--input-string": "Hello",
+  "--api-key": null,
+  "--api-url": "https://libretranslate.com"
+}
 

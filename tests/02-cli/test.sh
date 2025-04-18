@@ -17,3 +17,7 @@ log_file="${output_dir}/test.log"
 
 libre-translate -i 'en' -o 'de' -s 'Hello world'            >>"$log_file" 2>&1
 libre-translate -i 'en' -o 'de' -s 'Welcome to the jungle'  >>"$log_file" 2>&1
+
+# test invalid input
+libre-translate -i 'xx' -o 'de' -s 'Hello' >>"$log_file" 2>&1
+libre-translate -i 'en' -o 'yy' -s 'Hello' >>"$log_file" 2>&1

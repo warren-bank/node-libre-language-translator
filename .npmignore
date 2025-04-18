@@ -3,5 +3,6 @@
 .gitignore
 
 node_modules/
+lib/libre-language-translator/supported-languages/cache/*.json
 tests/
 .etc/

@@ -6,7 +6,7 @@ const run_test = async (args_string) => {
     process.argv = ['node', 'test.js', ...args_string.split(' ')]
 
     delete require.cache[resolved_module_key]
-    const argv_vals = await require(resolved_module_key)()
+    const argv_vals = require(resolved_module_key)
 
     console.log(args_string)
     console.log(('-').repeat(args_string.length))

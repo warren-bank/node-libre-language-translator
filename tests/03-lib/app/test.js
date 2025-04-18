@@ -1,4 +1,4 @@
-const translate = require('../../../lib/libre-language-translator')
+const translate = require('../../../lib/libre-language-translator/translate')
 
 const print_divider = function() {
   console.log(('-').repeat(40))
