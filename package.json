@@ -1,0 +1,22 @@
+{
+  "name": "@warren-bank/libre-language-translator",
+  "version": "1.0.0",
+  "main": "lib/libre-language-translator/index.js",
+  "description": "Unofficial Node.js client library and CLI for a subset of the LibreTranslate service API.",
+  "license": "GPL-2.0",
+  "bin": {
+    "libre-translate": "bin/libre-translate.js"
+  },
+  "dependencies": {
+    "@warren-bank/node-process-argv": "^1.2.2"
+  },
+  "author": {
+    "name":  "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url":   "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/node-libre-language-translator"
+  }
+}

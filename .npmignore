@@ -1,0 +1,7 @@
+.git/
+.gitattributes
+.gitignore
+
+node_modules/
+tests/
+.etc/

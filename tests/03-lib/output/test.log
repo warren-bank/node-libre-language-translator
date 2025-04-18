@@ -1,0 +1,67 @@
+{
+  "args": {},
+  "data": "{\"q\":[\"Hello world\",\"Hello world\",\"Hello world\",\"Hello world\"],\"source\":\"en\",\"target\":\"de\",\"format\":\"text\",\"alternatives\":0,\"api_key\":\"MY_LIBRE_TRANSLATE_API_KEY\"}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Content-Length": "163",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "YYYYYYYYYYYYYYY"
+  },
+  "json": {
+    "alternatives": 0,
+    "api_key": "MY_LIBRE_TRANSLATE_API_KEY",
+    "format": "text",
+    "q": [
+      "Hello world",
+      "Hello world",
+      "Hello world",
+      "Hello world"
+    ],
+    "source": "en",
+    "target": "de"
+  },
+  "origin": "ZZZ.ZZZ.ZZZ.ZZZ",
+  "url": "https://httpbin.org/post"
+}
+----------------------------------------
+[
+  "Hallo Welt",
+  "Hallo Welt",
+  "Hallo Welt",
+  "Hallo Welt"
+]
+----------------------------------------
+{
+  "args": {},
+  "data": "{\"q\":[\"Hello world\"],\"source\":\"en\",\"target\":\"de\",\"format\":\"text\",\"alternatives\":0,\"api_key\":\"MY_LIBRE_TRANSLATE_API_KEY\"}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Content-Length": "121",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "YYYYYYYYYYYYYYY"
+  },
+  "json": {
+    "alternatives": 0,
+    "api_key": "MY_LIBRE_TRANSLATE_API_KEY",
+    "format": "text",
+    "q": [
+      "Hello world"
+    ],
+    "source": "en",
+    "target": "de"
+  },
+  "origin": "ZZZ.ZZZ.ZZZ.ZZZ",
+  "url": "https://httpbin.org/post"
+}
+----------------------------------------
+[
+  "Hallo Welt",
+  "Hallo Welt",
+  "Hallo Welt",
+  "Hallo Welt"
+]
+----------------------------------------

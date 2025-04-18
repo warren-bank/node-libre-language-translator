@@ -1,0 +1,2 @@
+node_modules/
+bin/libre-translate/supported-languages/cache/*.json
