@@ -29,7 +29,7 @@ request('https://libretranslate.com/languages')
 
 const sort_api_data = (data) => {
   data.sort((a, b) => {
-    return a.code.localeCompare(b.code)
+    return a.name.localeCompare(b.name)
   })
 }
 

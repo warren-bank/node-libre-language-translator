@@ -50,55 +50,55 @@ npm install @warren-bank/libre-language-translator
 
 | code      | name                  |
 |-----------|-----------------------|
+| "sq"      | Albanian              |
 | "ar"      | Arabic                |
 | "az"      | Azerbaijani           |
-| "bg"      | Bulgarian             |
+| "eu"      | Basque                |
 | "bn"      | Bengali               |
+| "bg"      | Bulgarian             |
 | "ca"      | Catalan               |
+| "zh-Hans" | Chinese               |
+| "zh-Hant" | Chinese (traditional) |
 | "cs"      | Czech                 |
 | "da"      | Danish                |
-| "de"      | German                |
-| "el"      | Greek                 |
+| "nl"      | Dutch                 |
 | "en"      | English               |
 | "eo"      | Esperanto             |
-| "es"      | Spanish               |
 | "et"      | Estonian              |
-| "eu"      | Basque                |
-| "fa"      | Persian               |
 | "fi"      | Finnish               |
 | "fr"      | French                |
-| "ga"      | Irish                 |
 | "gl"      | Galician              |
+| "de"      | German                |
+| "el"      | Greek                 |
 | "he"      | Hebrew                |
 | "hi"      | Hindi                 |
 | "hu"      | Hungarian             |
 | "id"      | Indonesian            |
+| "ga"      | Irish                 |
 | "it"      | Italian               |
 | "ja"      | Japanese              |
 | "ko"      | Korean                |
-| "lt"      | Lithuanian            |
 | "lv"      | Latvian               |
+| "lt"      | Lithuanian            |
 | "ms"      | Malay                 |
 | "nb"      | Norwegian             |
-| "nl"      | Dutch                 |
+| "fa"      | Persian               |
 | "pl"      | Polish                |
 | "pt"      | Portuguese            |
 | "pt-BR"   | Portuguese (Brazil)   |
 | "ro"      | Romanian              |
 | "ru"      | Russian               |
+| "sr"      | Serbian               |
 | "sk"      | Slovak                |
 | "sl"      | Slovenian             |
-| "sq"      | Albanian              |
-| "sr"      | Serbian               |
+| "es"      | Spanish               |
 | "sv"      | Swedish               |
-| "th"      | Thai                  |
 | "tl"      | Tagalog               |
+| "th"      | Thai                  |
 | "tr"      | Turkish               |
 | "uk"      | Ukrainian             |
 | "ur"      | Urdu                  |
 | "vi"      | Vietnamese            |
-| "zh-Hans" | Chinese               |
-| "zh-Hant" | Chinese (traditional) |
 
 #### Library Examples:
 
