@@ -41,7 +41,6 @@ Valid options: [
   "pt-BR",
   "ro",
   "ru",
-  "sr",
   "sk",
   "sl",
   "es",
@@ -50,8 +49,7 @@ Valid options: [
   "th",
   "tr",
   "uk",
-  "ur",
-  "vi"
+  "ur"
 ]
 ERROR: Output language is not a valid target for the specified input language ("en").
 You entered: "yy"
@@ -95,14 +93,12 @@ Valid targets are: [
   "sk",
   "sl",
   "sq",
-  "sr",
   "sv",
   "th",
   "tl",
   "tr",
   "uk",
   "ur",
-  "vi",
   "zh-Hans",
   "zh-Hant"
 ]

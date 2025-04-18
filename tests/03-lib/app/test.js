@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 const translate = require('../../../lib/libre-language-translator/translate')
 
 const print_divider = function() {
@@ -40,7 +42,17 @@ const run_test = async function(optimize_duplicates = true, use_echo_server = fa
   print_divider()
 }
 
+const mock_echo_server_cache = () => {
+  const echo_server_cache = require('../../../lib/libre-language-translator/supported-languages/cache').get_filepath('https://httpbin.org/post#')
+  if (fs.existsSync(echo_server_cache)) return
+
+  const mock_data = [{code: 'en', targets: ['de']}]
+  fs.writeFileSync(echo_server_cache, JSON.stringify(mock_data), {encoding: 'utf8'})
+}
+
 const run_all_tests = async function() {
+  mock_echo_server_cache()
+
   await run_test(false, true)
   await run_test(false, false)
 
