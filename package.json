@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/libre-language-translator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "lib/libre-language-translator/index.js",
   "description": "Unofficial Node.js client library and CLI for a subset of the LibreTranslate service API.",
   "license": "GPL-2.0",
